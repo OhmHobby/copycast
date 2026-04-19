@@ -1,0 +1,55 @@
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# --- Virtualenvs ----------------------------------------------------------
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# --- IDEs / editors -------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS junk --------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Dev & debug scripts (not part of the shipped app) --------------------
+# Throwaway listeners/senders used during network debugging
+test.py
+test_*.py
+*_test.py
+map.txt
+scratch.py
+scratch/
+
+# Anything ending in .local.py — personal experiments not to be committed
+*.local.py
+
+# --- Logs / dumps ---------------------------------------------------------
+*.log
+logs/
